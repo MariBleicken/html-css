@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir essa imagens em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/photo-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/photo-m.png" type="image/png">
+        <img src="imagens/photo-g.png" alt="Imagem Flexivel">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Aprendendo a reproduzir Audio</p>
+    <audio src="midia/Drifting at 432 Hz - Unicorn Heads.mp3" controls autoplay></audio> <!--MP3-->
+</body>
+</html>
